@@ -6,5 +6,5 @@ Accelerated magnetic resonance imaging (MRI) reconstruction is a challenging and
 
 ## Block Diagram
 <img width="3247" height="779" alt="BD_ReconFormerEDR" src="https://github.com/user-attachments/assets/2ec44711-5823-46e2-ae7f-b2731b6f1144" />
-
+**Fig.1:** Block diagram of the proposed ReconFormer-EDR architecture. (a) Recurrent units (RU) are updated through deep unrolling across multiple iterations. (b) The attention guided encoder-decoder and refine module (RM) used in the RU blocks. (c) The illustration of a recurrent unit (RU). Here, the ReconFormer Block (RFB) is same as defined in [ref-1].
 
