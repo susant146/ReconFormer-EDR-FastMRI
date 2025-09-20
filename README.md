@@ -8,6 +8,10 @@ Accelerated magnetic resonance imaging (MRI) reconstruction is a challenging and
 <img width="3247" height="779" alt="BD_ReconFormerEDR" src="https://github.com/user-attachments/assets/2ec44711-5823-46e2-ae7f-b2731b6f1144" />
 **Fig.1:** Block diagram of the proposed ReconFormer-EDR architecture. (a) Recurrent units (RU) are updated through deep unrolling across multiple iterations. (b) The attention guided encoder-decoder and refine module (RM) used in the RU blocks. (c) The illustration of a recurrent unit (RU). Here, the ReconFormer Block (RFB) is same as defined in [ref-1].
 
+## Results
+<![Acc4_QualityComp1](https://github.com/user-attachments/assets/1a90ef2b-776a-411a-bb9a-b129e9674c1b) />
+
+
 # Dataset
 The code was trained, validated and tested on [fastMRI](https://fastmri.med.nyu.edu/) Knee multicoil dataset. 
 
