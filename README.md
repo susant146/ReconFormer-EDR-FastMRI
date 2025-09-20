@@ -20,6 +20,14 @@ Accelerated magnetic resonance imaging (MRI) reconstruction is a challenging and
 **Table.1**: Quantitative comparison of various state-of-the-art methods with the proposed ReconFormer-EDR model. The best and second performance measure are highlighted in Bold and Underline, respectively. <br>
 <img width="1030" height="270" alt="image" src="https://github.com/user-attachments/assets/207b9bf7-9475-4601-a0d2-68647b293925" />
 
+**Cross-Data Validation** <br>
+![BarPlot_KneeBrain](https://github.com/user-attachments/assets/45df2306-b679-46e2-ae6c-036f4cf47c39)
+
+**Fig.4**: Model robustness towards anatomical shift: Performance of various models trained on knee data and tested on brain images. Corresponding (a) SSIM, (b) PSNR measures for R = 4 and (c) SSIM, (d) PSNR measure for R = 8.
+
+<img width="529" height="382" alt="image" src="https://github.com/user-attachments/assets/87df818c-53bc-4f82-be65-c662df38c01b" />
+**Fig.5**Comparison of reconstruction performance (PSNR in dB) across varying percentages of available training data (100%, 75%, 50%, and 25%) for different models. Each circle’s color and size represent the corresponding model’s parameter count (in Millions), with larger and warmer-colored circles indicating higher complexity.
+
 # Supplementary Material 
 we have includedd the 95% confidence intervals (CIs) computed volume-wise for PSNR, SSIM, and NMSE. For the fastMRI knee dataset, the 90% CI for PSNR is approximately ±0.15 dB and for SSIM ±0.004, for the proposed ReconFormer-EDR model. Furthermore, we now provide a per-sequence breakdown (CORPD vs. CORPDFS) to highlight performance across different contrasts in Table.2 and Table.3. To address concern regarding data partitioning, we have clarified in Section III-A that training and validation sets follow the fastMRI patient-wise split [2]. Note that training was performed on approximately 15K slices of the training set and 20% of these was used for validation. The results in Table I are reported on the remaining 3K slices of the validation set. <br>
 
