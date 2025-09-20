@@ -9,7 +9,16 @@ Accelerated magnetic resonance imaging (MRI) reconstruction is a challenging and
 **Fig.1:** Block diagram of the proposed ReconFormer-EDR architecture. (a) Recurrent units (RU) are updated through deep unrolling across multiple iterations. (b) The attention guided encoder-decoder and refine module (RM) used in the RU blocks. (c) The illustration of a recurrent unit (RU). Here, the ReconFormer Block (RFB) is same as defined in [ref-1].
 
 ## Results
-<![Acc4_QualityComp1](https://github.com/user-attachments/assets/1a90ef2b-776a-411a-bb9a-b129e9674c1b) />
+**Qualitative Results** <br>
+![Acc4_QualityComp1](https://github.com/user-attachments/assets/1a90ef2b-776a-411a-bb9a-b129e9674c1b) <br>
+**Fig.2** Acceleration factor R = 4: Qualitative assessment of different methods on the multicoil fatMRI dataset. The second row of each subplot shows the corresponding ×4 magnified patch corresponds to green rectangle region. The yellow arrow indicates the fine details that ReconFormer-EDR preserves better compared to other methods.<br>
+
+![Acc8_QualityComp1](https://github.com/user-attachments/assets/69edf60e-66f4-4719-bae2-7b19799bd6d5) <br>
+**Fig.33** Acceleration factor R = 8: Qualitative assessment of different methods on the multicoil fatMRI dataset. The second row of each subplot shows the corresponding ×4 magnified patch corresponds to green rectangle region. The yellow arrow indicates the fine details that ReconFormer-EDR preserves better compared to other methods. <br>
+
+**Quantitative Results** <br>
+**Table.1**: Quantitative comparison of various state-of-the-art methods with the proposed ReconFormer-EDR model. The best and second performance measure are highlighted in Bold and Underline, respectively. <br>
+<img width="1030" height="270" alt="image" src="https://github.com/user-attachments/assets/207b9bf7-9475-4601-a0d2-68647b293925" />
 
 
 # Dataset
