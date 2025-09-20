@@ -26,10 +26,10 @@ Accelerated magnetic resonance imaging (MRI) reconstruction is a challenging and
 **Fig.4**: Model robustness towards anatomical shift: Performance of various models trained on knee data and tested on brain images. Corresponding (a) SSIM, (b) PSNR measures for R = 4 and (c) SSIM, (d) PSNR measure for R = 8.
 
 <img width="529" height="382" alt="image" src="https://github.com/user-attachments/assets/87df818c-53bc-4f82-be65-c662df38c01b" /> <br>
-**Fig.5**Comparison of reconstruction performance (PSNR in dB) across varying percentages of available training data (100%, 75%, 50%, and 25%) for different models. Each circle’s color and size represent the corresponding model’s parameter count (in Millions), with larger and warmer-colored circles indicating higher complexity.
+**Fig.5** Comparison of reconstruction performance (PSNR in dB) across varying percentages of available training data (100%, 75%, 50%, and 25%) for different models. Each circle’s color and size represent the corresponding model’s parameter count (in Millions), with larger and warmer-colored circles indicating higher complexity.
 
 # Supplementary Material 
-we have includedd the 95% confidence intervals (CIs) computed volume-wise for PSNR, SSIM, and NMSE. For the fastMRI knee dataset, the 90% CI for PSNR is approximately ±0.15 dB and for SSIM ±0.004, for the proposed ReconFormer-EDR model. Furthermore, we now provide a per-sequence breakdown (CORPD vs. CORPDFS) to highlight performance across different contrasts in Table.2 and Table.3. To address concern regarding data partitioning, we have clarified in Section III-A that training and validation sets follow the fastMRI patient-wise split [2]. Note that training was performed on approximately 15K slices of the training set and 20% of these was used for validation. The results in Table I are reported on the remaining 3K slices of the validation set. <br>
+We have includedd the 95% confidence intervals (CIs) computed volume-wise for PSNR, SSIM, and NMSE. For the fastMRI knee dataset, the 90% CI for PSNR is approximately ±0.15 dB and for SSIM ±0.004, for the proposed ReconFormer-EDR model. Furthermore, we now provide a per-sequence breakdown (CORPD vs. CORPDFS) to highlight performance across different contrasts in Table.2 and Table.3. To address concern regarding data partitioning, we have clarified in Section III-A that training and validation sets follow the fastMRI patient-wise split [2]. Note that training was performed on approximately 15K slices of the training set and 20% of these was used for validation. The results in Table I are reported on the remaining 3K slices of the validation set. <br>
 
 **Table.2**: R=4: QUANTITATIVE COMPARISON OF VARIOUS ARCHITECTURES WITH THE PROPOSED RECONFORMER-EDR MODEL. THE BEST PERFORMANCE MEASURES ARE HIGHLIGHTED IN BOLD FONT.
 <img width="1087" height="396" alt="image" src="https://github.com/user-attachments/assets/e38ac850-7484-4029-9346-6ce3ea89f3c4" /> <br>
@@ -43,7 +43,8 @@ The code was trained, validated and tested on [fastMRI](https://fastmri.med.nyu.
 
 # Cite
 If you are using our code, please cite the following paper: <br>
-Panigrahi, S. K., Sasmal, P., Dewan, D., & Sheet, D. (2025). Encoder-Decoder Refined Recurrent Transformer Network for Accelerated MRI Reconstruction. 4th IEEE CVMI-2025. [Accepted]
+Panigrahi, S. K., Sasmal, P., Dewan, D., & Sheet, D. (2025). Encoder-Decoder Refined Recurrent Transformer Network for Accelerated MRI Reconstruction. 4th IEEE Conference on
+Computer Vision and Machine Intelligence, CVMI-2025. [Accepted]
 
 ## Reference
 1. Guo, Pengfei, et al. "Reconformer: Accelerated mri reconstruction using recurrent transformer." IEEE transactions on medical imaging 43.1 (2023): 582-593.
