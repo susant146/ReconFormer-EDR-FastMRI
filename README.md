@@ -25,7 +25,7 @@ Accelerated magnetic resonance imaging (MRI) reconstruction is a challenging and
 
 **Fig.4**: Model robustness towards anatomical shift: Performance of various models trained on knee data and tested on brain images. Corresponding (a) SSIM, (b) PSNR measures for R = 4 and (c) SSIM, (d) PSNR measure for R = 8.
 
-<img width="529" height="382" alt="image" src="https://github.com/user-attachments/assets/87df818c-53bc-4f82-be65-c662df38c01b" />
+<img width="529" height="382" alt="image" src="https://github.com/user-attachments/assets/87df818c-53bc-4f82-be65-c662df38c01b" /> <br>
 **Fig.5**Comparison of reconstruction performance (PSNR in dB) across varying percentages of available training data (100%, 75%, 50%, and 25%) for different models. Each circle’s color and size represent the corresponding model’s parameter count (in Millions), with larger and warmer-colored circles indicating higher complexity.
 
 # Supplementary Material 
