@@ -1,0 +1,29 @@
+----------------- Options ---------------
+                   F_path:                               
+            accelerations: [4]                           
+                       bs: 1                             	[default: 16]
+         center_fractions: [0.08]                        
+                challenge: multicoil                     	[default: None]
+               checkpoint:                               
+                continues: False                         
+                   device: cuda:0                        	[default: None]
+                   epochs: 50                            
+                      gpu: [0, 1]                        
+                       lr: 0.0002                        	[default: 0.0001]
+                 lr_gamma: 0.1                           
+             lr_step_size: 5                             	[default: 50]
+                mask_type: random                        
+                    model: ReconFormer_EDR                   	[default: ]
+                 momentum: 0.5                           
+                    phase: train                         
+               resolution: 320                           	[default: None]
+                 return_h: False                         
+              sample_rate: 1.0                           
+                 save_dir: path_to/ReconFormer_MRI_recon	[default: None]
+                     seed: 42                            
+                 sequence: PD                            	[default: T1]
+             test_dataset: F                             	[default: ]
+            train_dataset: F                             	[default: ]
+          val_sample_rate: 1.0                           
+                  verbose: True                          	[default: False]
+----------------- End -------------------
